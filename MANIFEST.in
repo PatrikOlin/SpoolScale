@@ -1,0 +1,4 @@
+include README.md
+recursive-include octoprint_spoolScale/templates *
+recursive-include octoprint_spoolScale/translations *
+recursive-include octoprint_spoolScale/static *
