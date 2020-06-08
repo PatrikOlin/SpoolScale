@@ -32,8 +32,8 @@ $(function () {
         };
 
         self.formatWeight = function () {
-            console.log(self.getWeight().toString() + " gram");
-            return self.getWeight().toString() + " gram";
+            console.log(self.getWeight().toString() + " gram ");
+            return self.getWeight().toString() + " gram ";
         };
 
         self.onDataUpdaterPluginMessage = function (plugin, data) {

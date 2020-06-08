@@ -1,10 +1,6 @@
 #
 
-try:
-	import RPi.GPIO as GPIO
-except (ImportError, RuntimeError):
-	# RuntimeError gets thrown when you import RPi.GPIO on a non Raspberry Pi
-	GPIO = None
+import RPi.GPIO as GPIO
 import time
 import threading
 
